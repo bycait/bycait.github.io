@@ -19,6 +19,7 @@
 	}
 
 /* Header */
+/* Uncomment to hide company name when window is shrunk beyond a certain size
 
 	#skel-layers-wrapper {
 		padding-top: 0;
@@ -27,6 +28,7 @@
 	#header {
 		display: none;
 	}
+*/
 
 /* Banner */
 
@@ -40,8 +42,7 @@
 
 /* Layers */
 
-/*
-Uncomment to reinstate dropdown menu that appears when window is shrunk beyond a certain size
+/* Uncomment to reinstate dropdown menu that appears when window is shrunk beyond a certain size
 
 	#navButton .toggle {
 		text-decoration: none;

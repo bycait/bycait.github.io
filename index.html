@@ -48,9 +48,9 @@ layout: landing-page
 								<h3>Client List</h3>
 								<p>
 									<ul>
-										<li><a href="https://www.sieam.edu/">Seattle Institute of East Asian Medicine</a></li>
-										<li><a href="https://www.engagingvitality.com/">Engaging Vitality</a></li>
-										<li><a href="https://www.brilliantmedicine.co/">Brilliant Medicine</a></li>
+										<li><a href="https://www.sieam.edu/" target="_blank">Seattle Institute of East Asian Medicine</a></li>
+										<li><a href="https://www.engagingvitality.com/" target="_blank">Engaging Vitality</a></li>
+										<li><a href="https://www.brilliantmedicine.co/" target="_blank">Brilliant Medicine</a></li>
 									
 									</ul>
 								</p>
@@ -62,18 +62,31 @@ layout: landing-page
 								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 								<h3>TECHNOLOGY USED</h3>
 								<p>
-									<ul>
-										<li>Google Analytics</li>
+									<div class="row">
+								        <div class="column"></div>
+								        <div class="column"></div>
+								         </div>
+								      .column {
+								    float: left
+								    width: 50%;
+								}
+								/* Clear floats after the columns */
+								.row:after {
+								content: "<li>Google Analytics</li>
+								<ul>
 										<li>Facebook Ads</li>
 										<li>Instagram Ads</li>
 										<li>Squarespace</li>
-										<li>WIX</li>
-										<li>Wordpress</li>
+										<li>WIX</li>"
+									<li>Wordpress</li>
 										<li>Blogger</li>
-										<li>Unified Practice</li>
+										<li>Unified Practice</li>;
 									</ul>
 								</p>
-								
+								display: table
+								clear: both;
+								}
+							
 							</section>
 						</div>
 					</div>
@@ -94,7 +107,7 @@ layout: landing-page
 						<div class="4u">
 							<section>
 								<h3>Let's Talk</h3>
-								<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
+								<p>Even if it's just a quick question.</p>
 								<ul class="actions">
 									<li><a href="mailto:info@digitalmanagement.us" class="button alt">Email Me</a></li>
 								</ul>

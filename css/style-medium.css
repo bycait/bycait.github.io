@@ -40,6 +40,9 @@
 
 /* Layers */
 
+/*
+Uncomment to reinstate dropdown menu that appears when window is shrunk beyond a certain size
+
 	#navButton .toggle {
 		text-decoration: none;
 		height: 100%;
@@ -112,3 +115,4 @@
 			#navPanel nav .button {
 				width: 100%;
 			}
+*/
